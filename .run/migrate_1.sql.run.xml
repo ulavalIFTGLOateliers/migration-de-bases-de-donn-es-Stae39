@@ -1,0 +1,8 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="migrate_1.sql" type="DatabaseScript" activateToolWindowBeforeRun="false" singleton="false" nameIsGenerated="true">
+    <script-file value="$PROJECT_DIR$/db_scripts/migrate_1.sql" />
+    <script-mode>FILE</script-mode>
+    <data-source id="ced362b9-5f99-4df4-b7e0-63d10160019f" />
+    <method v="2" />
+  </configuration>
+</component>

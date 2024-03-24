@@ -94,6 +94,7 @@ class Database:
 
         return [list(x) for x in self.cursor.fetchall()]
 
+
     def get_table_primary_key(self, table):
         req = f"SELECT COLUMN_NAME FROM INFORMATION_SCHEMA.KEY_COLUMN_USAGE WHERE TABLE_SCHEMA = '{self.database}' AND TABLE_NAME = '{table}' AND CONSTRAINT_NAME = 'PRIMARY';"
         self.cursor.execute(req)

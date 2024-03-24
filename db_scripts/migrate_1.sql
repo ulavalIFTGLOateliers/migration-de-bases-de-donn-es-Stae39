@@ -7,6 +7,7 @@ ALTER TABLE musician ADD role varchar(50);
 ALTER TABLE musician ADD bandName varchar(50);
 
 
+
 #  "band" table
 CREATE TABLE IF NOT EXISTS band (
     bandName VARCHAR(50) PRIMARY KEY,

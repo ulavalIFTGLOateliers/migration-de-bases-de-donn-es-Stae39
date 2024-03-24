@@ -11,6 +11,7 @@ database = Database()
 def index():
     table_names = database.get_table_names()
 
+
     tables = []
     for table_name in table_names:
         table_dict = {

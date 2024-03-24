@@ -7,7 +7,7 @@ ALTER TABLE musician RENAME TO singer;
 
 ALTER TABLE singer RENAME COLUMN  musicianName  TO singerName ;
 
-# DONT FORGET TO DROP THE COLUMN ROLE BANDNAME
+
 
 ALTER TABLE singer DROP COLUMN role;
 ALTER TABLE singer  DROP COLUMN bandName;
